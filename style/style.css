@@ -1119,6 +1119,7 @@ a {
     font-size: 16px;
     line-height: 35px;
     padding-top: 8px;
+    opacity: 0.5;
   }
 
   .global_container {
@@ -1443,6 +1444,7 @@ a {
     font-size: 16px;
     line-height: 35px;
     padding-top: 8px;
+    opacity: 0.5;
   }
 
   .local{
