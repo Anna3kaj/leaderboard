@@ -1551,21 +1551,6 @@ a {
   }
 }
 
-@media (max-width: 450px) {
-  .container_chain {
-    height: auto;
-    width: 90%;
-    padding: 15px 0;
-  }
-  .global_container {
-    margin: 0;
-    width: 100%;
-  }
-  /* .player_list {
-    padding: 0;
-  } */
-}
-
 @media (max-width: 550px) {
   .row_gold {
     width: 60%;
@@ -1585,11 +1570,22 @@ a {
 }
 
 @media (max-width: 450px) {
+  .container_chain {
+    width: 90%;
+    height: auto;
+    padding: 15px 0;
+  }
+  .global_container {
+    margin: 0;
+    width: 100%;
+  }
   .bsc_block {
     font-size: 12px;
+    margin-right: 10px;
   }
   .polygon_block {
     font-size: 12px;
+    margin-right: 10px;
   }
   .Avalanche_block {
     font-size: 12px;
@@ -1615,8 +1611,8 @@ a {
   }
   .arrow_left {
     margin-right: 10px;
-    width: 35px;
-    height: 35px;
+    width: 15px;
+    height: 15px;
     text-align: center;
     padding: 10px 12px;
     font-size: 15px;
@@ -1624,8 +1620,8 @@ a {
   }
   .arrow_right {
     margin-left: 10px;
-    width: 35px;
-    height: 35px;
+    width: 15px;
+    height: 15px;
     text-align: center;
     padding: 10px 12px;
     font-size: 15px;
@@ -1633,8 +1629,8 @@ a {
   }
   .pages {
     margin-right: 5px;
-    width: 35px;
-    height: 35px;
+    width: 13px;
+    height: 15px;
     text-align: center;
     padding: 10px 12px;
     font-size: 15px;
@@ -1655,14 +1651,17 @@ a {
   .bsc_block {
     font-size: 10px;
     padding: 8px 10px;
+    height: 34px;
   }
   .polygon_block {
     font-size: 10px;
     padding: 8px 10px;
+    height: 34px;
   }
   .Avalanche_block {
     font-size: 10px;
     padding: 8px 10px;
+    height: 34px;
   }
   .row_gold {
     width: 98%;
